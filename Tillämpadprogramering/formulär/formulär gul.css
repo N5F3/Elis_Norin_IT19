@@ -1,0 +1,37 @@
+
+
+
+<body>
+    </article>
+    <style>
+        body{
+            
+        }
+        header{
+            margin: 1% 20% 0% 20%;
+            background-color:lightgrey;
+            border-style: solid;
+            border-width: 0.5%;
+            border-color: black;
+            padding: 2%;
+        }
+        article {
+                margin: 2% 23% 2% 23%;
+                background-color: lightgrey;
+                padding: 0%;
+                color:black;
+                border-style: solid;
+                border-width: 0.5%;
+        }
+        footer {
+            margin: 1% 20% 1% 20%;
+            background-color:lightgrey;
+            border-style: solid;
+            border-width: 0.5%;
+            border-color: black;
+            padding: 2%;
+            
+        }
+
+    </style>
+</body>
