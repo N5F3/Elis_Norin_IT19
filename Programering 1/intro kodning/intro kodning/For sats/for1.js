@@ -3,12 +3,12 @@ console.log ("hej")
 
 let p_talserie1 = document.querySelector("#talserie1")
 let p_talserie2 = document.querySelector("#talserie2")
-let p_summa = docuemnt.querySelector ("#summa")
+let p_summa = docuemnt.querySelector("#summa")
 let summa = 0
 
 
 for (let j=10; j>=0; j--) {
-    p_talserie1.innerHTML += ${j}
+    p_talserie1.innerHTML += `${j}`
 
 }
 
