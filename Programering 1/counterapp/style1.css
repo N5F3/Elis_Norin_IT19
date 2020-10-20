@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+#container{
+    width: 500px;
+    height: 500px;
+    border: 5px solid lightblue;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color: rgba(176, 196, 222, 0.623);
+}
+
+h1{
+    font-size: 3rem;
+    padding-top: 4rem;
+    color: teal;
+}
+
+#siffra{
+    font-size: 5rem;
+    margin 0 auto
+}
+
