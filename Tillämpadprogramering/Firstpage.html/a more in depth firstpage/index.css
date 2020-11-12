@@ -1,0 +1,36 @@
+header{margin:15% 0% 0% 0%;}
+header {font-size: 10mm;}
+footer{font-size: 3mm;}
+footer{color: lightgrey;}
+footer{margin: 0% 0% 0% 0%;}
+body{background-image: url(https://i.imgur.com/DPVTUKO.jpg)
+
+
+
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+
+}
