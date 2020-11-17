@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>hej hoj
+        </p>
+    </header>
+    <section>
+        <article id="a1">
+            <img src="svamp.jpg" id="svamp">
+            <p id="text">Wow that's Peppa pig</p>
+        </article>
+        <article id="b2">
+            <img id="monster" src="monster.jpg">
+            <p id="text">its a giraffe</p>
+        </article>
+        <article id="c3">
+            <img id="grad" src="grad.jpg">
+            <p id="replace">TEXT BAKOM BILD, med positionregel för att styra placering</p>     
+        </article>
+    </section>
+</body>
+<style>
+section {
+    display:flex;
+}
+h1 {
+    text-align:center;
+}
+img {
+    width:100%;
+    height:400px;
+}
+article {
+    background-color:rgb(147, 212, 224);
+    border:2px solid black;
+    width:300px;
+}
+#text {
+    visibility:hidden;
+}
+
+
+#a1:hover {
+    content:url('peppa.jpg');    
+}
+#a1:hover #text {
+    visibility:visible;
+} 
+
+
+#b2:hover {
+    content:url('gif.gif');    
+}
+#b2:hover {
+    background-color: black;
+} 
+#b2:hover #text{
+visibility: visible;
+}
+
+
+#c3:hover {
+    content:url('trans.png');    
+}
+#c3 #replace {
+    visibility:hidden;
+}
+#c3:hover {
+    background-color:darkgrey;
+}
+#c3:hover #bild3 {
+    visibility:hidden;
+    position:absolute;
+}
+#c3:hover #replace {
+    visibility:visible;
+    margin-top:50px;
+    text-align:center;
+}
+
+
+</style>
+</html>
