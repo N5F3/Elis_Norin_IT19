@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.flex-container > div {
+  background-color: #a9c0ff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.flex-container > div {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-containerII {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  .flex-containerII {
+      display: flex;
+      flex-direction: row;
+    }
+  
+  .flex-containerII > div {
+    background-color: #a9c0ff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .flex-containerII > div {
+      display: flex;
+      justify-content: center;
+  }
+
+</body>
+</html>
